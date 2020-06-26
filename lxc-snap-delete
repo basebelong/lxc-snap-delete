@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Author: Jonas Hendrikson 2017 (jonas@hendrikson.se)
 
@@ -15,7 +15,7 @@ if ! lxc info "$1" >/dev/null 2>&1; then
   exit 3
 fi
 
-# Läs in en array med snapshotnamn. Äldst först.
+# Read an array with snapshot names. Oldest first.
 
 snaps=( $(lxc info "$1" |
   awk '/\(taken at / {print $4"\t"$5"\t"$1}' |
