@@ -1,0 +1,9 @@
+# lxc-snap-delete
+
+Author: Jonas Hendrikson 2017 (jonas@hendrikson.se)
+
+Containername as single argument!
+Optionally prepended with container host name:
+  [container-host-name]:container-name
+No spaces between host and container.
+
