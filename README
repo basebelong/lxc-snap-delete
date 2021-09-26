@@ -1,5 +1,11 @@
 # lxc-snap-delete
 
+## Note DEPRICATED
+
+This tools parses human readable output from the lxc command.
+Output format has changed - thus this is no longer usable on modern LXD version.
+Should be updated soon(TM).
+
 Author: Jonas Hendrikson 2017 (jonas@hendrikson.se)
 
 Containername as single argument!
